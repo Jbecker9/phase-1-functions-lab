@@ -26,5 +26,7 @@ function calculatesFarePrice(block, end){
             return price
         }
         if (total > 400 && total <= 200)
-            return cost = (total - 400) * charge
+            let cost = charge * (total - 400)
+            return cost
+            //return cost = (total - 400) * charge
     }
